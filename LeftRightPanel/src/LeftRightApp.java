@@ -1,3 +1,4 @@
+//package edu.buffalostate.cis425.sp17.assignments.marron;
 /**
  * File: LeftRightApp.java
  *
@@ -16,13 +17,13 @@ public class LeftRightApp extends JFrame
         getContentPane().add(new LeftRightPanel());
         //register 'Exit upon closing' as a default close operation
         setDefaultCloseOperation( EXIT_ON_CLOSE );
-    } // LeftRightFrame() constructor
+    } //END LeftRightFrame() constructor
 
 
     public static void main(String args[]){
         LeftRightApp aframe = new LeftRightApp();
         aframe.setSize(600,400);
         aframe.setVisible(true);
-    } // main()
+    } //END main()
 
-} // LeftRightFrame class
+} //END LeftRightFrame class
